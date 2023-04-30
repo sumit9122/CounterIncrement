@@ -10,7 +10,7 @@ counters.forEach((counter) => {
         counter.innerHTML = `${Math.round(startingNumber + incr)}`;
         setTimeout(updateCounter,5);
     }else{
-
+       counter.innerHTML = targetCount;
     }
 
   }
