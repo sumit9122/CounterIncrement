@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #16139b;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    color: #ffffff;
+}
+.conterr {
+    display: flex;
+}
+.counter_container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.counter {
+    margin-bottom: 21px;
+    font-size: 80px;
+    font-weight: 600;
+    color: #cb8c0c;
+    font-family: monospace;
+}  
+.counter_container span{
+     color: #ffffff;
+     font-size: 25px;
+     font-family: cursive;
+}
